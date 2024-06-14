@@ -1,0 +1,47 @@
+{
+    "$schema": "https://biomejs.dev/schemas/1.8.1/schema.json",
+    "organizeImports": { "enabled": true },
+    "formatter": {
+      "enabled": true,
+      "formatWithErrors": false,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineEnding": "lf",
+      "lineWidth": 100,
+      "attributePosition": "auto"
+    },
+    "files": {
+      "ignore": ["src/ignored.ts", "src/parse-error-not-ignored.js"]
+    },
+    "linter": {
+      "rules": {
+        "recommended": true
+      }
+    },
+    "javascript": {
+      "formatter": {
+        "jsxQuoteStyle": "double",
+        "quoteProperties": "asNeeded",
+        "trailingCommas": "all",
+        "semicolons": "asNeeded",
+        "arrowParentheses": "always",
+        "bracketSpacing": true,
+        "bracketSameLine": false,
+        "quoteStyle": "single",
+        "attributePosition": "auto"
+      }
+    },
+    "overrides": [
+      {
+        "include": ["*.svelte"],
+        "linter": {
+          "rules": {
+            "style": {
+              "useConst": "off"
+            }
+          }
+        }
+      }
+    ]
+  }
+  

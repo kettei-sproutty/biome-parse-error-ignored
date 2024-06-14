@@ -1,0 +1,8 @@
+{
+  "name": "biome-parse-error",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.1",
+    "typescript": "5.4.5"
+  }
+}
