@@ -11,7 +11,7 @@
       "attributePosition": "auto"
     },
     "files": {
-      "ignore": ["src/ignored.ts", "src/parse-error-not-ignored.js"]
+      "ignore": ["./src/ignored.ts", "./src/parse-error-ignored.js"]
     },
     "linter": {
       "rules": {
